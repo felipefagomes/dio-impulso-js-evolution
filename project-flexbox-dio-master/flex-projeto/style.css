@@ -97,3 +97,39 @@ header .list-items {
     margin: 1rem 0;
 }
 
+/* SEÇÃO QUEM SOMOS */
+
+#quem-somos {
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+#quem-somos h2 {
+    font-size: 3.2rem;
+    color: #122A57;
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+#quem-somos h2::before {
+    content: '';
+    height: 5rem;
+    width: 0.5rem;
+    margin-right: 0.5rem;
+    background-color: #122A57;
+    position: relative;
+}
+
+#quem-somos p {
+    font-size: 1.3rem;
+    width: 90%;
+    margin-bottom: 1rem;
+}
+
+#quem-somos img {
+    width: 42rem;
+}
+
+
