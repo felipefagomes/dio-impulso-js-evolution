@@ -132,4 +132,56 @@ header .list-items {
     width: 42rem;
 }
 
+/* SEÇÃO SERVIÇOS */
 
+.container-externo {
+    background-color: #122A57;
+    width: 100%;
+}
+
+#servicos {
+    flex-direction: column;
+    padding: 5rem 0 10rem 0;
+}
+
+#servicos h2 {
+    color:white;
+    font-size: 3.2rem;
+    margin-bottom: 3rem;
+}
+
+.list-servicos {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.list-servicos .item-servico {
+    text-align: center;
+}
+
+.item-servico img {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+
+.item-servico p {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: white;
+}
+
+.item-servico a {
+    width: 2.2rem;
+    height: 5rem;
+    line-height: 5rem;
+    background-color: white;
+    color: #122A57;
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 3rem;
+    padding: 0.5rem 1rem;
+}
