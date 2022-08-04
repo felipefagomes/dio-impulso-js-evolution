@@ -83,14 +83,14 @@ header .list-items {
     font-size: 1.3rem;
 }
 
-.texto-apresentacao a {
+.btn {
     background-color: #122A57;
     color: white;
     display: block;
     text-decoration: none;
     text-align: center;
     font-size: 1.3rem;
-    width: 22rem;
+    width: 20rem;
     height: 5rem;
     border-radius: 3rem;
     line-height: 5rem;
@@ -184,4 +184,75 @@ header .list-items {
     text-align: center;
     border-radius: 3rem;
     padding: 0.5rem 1rem;
+}
+
+/* SEÇÃO PLANOS */
+
+#planos {
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 5rem 0 10rem 0;
+}
+
+#planos h2 {
+    font-size: 3.2rem;
+}
+
+.list-planos {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.item-plano {
+    flex: 1;
+    border: 0.4rem solid #122A57;
+    margin-right: 2rem;
+    max-width: 24rem;
+}
+
+.item-plano h3 {
+    font-size: 2.4rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.item-plano h3::after {
+    content: '';
+    background-color: #122A57;
+    width: 90%;
+    height: 0.2rem;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.item-plano ul {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 2rem;
+    margin-bottom: 1rem;
+}
+
+.item-plano ul li {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    font-size: 1.5rem;
+    padding: 0.2rem;
+}
+
+.item-plano ul li::before {
+    content: '';
+    width: 1rem;
+    height: 1rem;
+    background-color: #122A57;
+    margin-right: 0.5rem;
+}
+
+.item-plano .btn {
+    margin: auto;
+    margin-bottom: 2rem;
 }
